@@ -1,10 +1,14 @@
-package cn.itcast.bookStore.domain;
+package pers.ol.bookstore.domain;
 
 import java.io.Serializable;
 import java.util.Date;
 
 public class User implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int id; // 用户编号
 	private String username; // 用户姓名
 	private String password; // 用户密码

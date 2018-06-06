@@ -1,4 +1,4 @@
-package cn.itcast.bookStore.web.filter;
+package pers.ol.bookstore.web.filter;
 
 import java.io.IOException;
 
@@ -11,7 +11,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import cn.itcast.bookStore.domain.User;
+import pers.ol.bookstore.domain.User;
 
 public class AdminPrivilegeFilter implements Filter {
 
